@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[node name="Main" type="Node"]
+
+# Declare member variables here. Examples:
+var a = 2
+var b = "text"
+                          
+# Called when the node enters the scene tree for the first time.
+func _ready():
+    # Initialize your game logic here.
+    print("Hello, World!")
