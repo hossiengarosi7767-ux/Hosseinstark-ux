@@ -1,12 +1,11 @@
-[gd_scene load_steps=2 format=2]
+[global]
+config_version=4
 
-[node name="Main" type="Node"]
+[project]
+budget=50
+name="War Machine"
+version=1.0
+product_name="War Machine"
 
-# Declare member variables here. Examples:
-var a = 2
-var b = "text"
-                          
-# Called when the node enters the scene tree for the first time.
-func _ready():
-    # Initialize your game logic here.
-    print("Hello, World!")
+[rendering]
+vulkan_enable=false
